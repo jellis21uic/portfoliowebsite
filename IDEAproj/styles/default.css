@@ -1,0 +1,89 @@
+@import url("https://use.typekit.net/djk0rvk.css");
+
+/* The sidebar menu */
+
+header div.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 999;
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* The navigation menu links */
+header div.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+}
+header div.sidenav h1{
+    color: #818181;
+    font-size: 30px;
+}
+header div.sidenav p{
+    color: #818181;
+    font-size: 20px;
+}
+header div.sidenav ul li {
+    list-style-type: none;
+}
+header div.sidenav ul {
+    padding: 0;
+}
+/* When you mouse over the navigation links, change their color */
+header div.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style page content */
+
+main div.homepage{
+    max-width: 100%;
+    height: auto;
+    margin-left: 180px;
+    margin-right: auto;/* Same as the width of the sidebar */
+    overflow-x: hidden;
+}
+main div.homepage img{
+    width: 100%;
+    height: auto;
+}
+main div.test1 {
+    max-width: 100%;
+    display: block;
+    color: white;
+    height: 100vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin: 0 0 0 180px;
+    background-color: black;
+    overflow-x: hidden;
+    text-align: center;
+}
+main div.test1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+/*main div.test2 {
+    background-color: aquamarine;
+    width: 100%;
+    border: 15px solid green;
+    padding: 20px;
+    margin: 0 auto;
+    height: auto;
+}/*
+
